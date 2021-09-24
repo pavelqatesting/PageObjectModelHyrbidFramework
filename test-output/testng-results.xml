@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="14" passed="13">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Selenium framework Regression Test Suite" duration-ms="83475" started-at="2021-02-16T18:37:19 EST" finished-at="2021-02-16T18:38:43 EST">
+    <groups>
+    </groups>
+    <test name="Product Info Test" duration-ms="47061" started-at="2021-02-16T18:37:19 EST" finished-at="2021-02-16T18:38:06 EST">
+      <class name="com.qa.ecomm.tests.ProductInfoTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.ecomm.tests.ProductInfoTest@5e77f0f4]" name="setUp" is-config="true" duration-ms="14111" started-at="2021-02-16T18:37:19 EST" finished-at="2021-02-16T18:37:34 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="FAIL" signature="verifyProductInfoMacBookTest()[pri:1, instance:com.qa.ecomm.tests.ProductInfoTest@5e77f0f4]" name="verifyProductInfoMacBookTest" duration-ms="4211" started-at="2021-02-16T18:37:34 EST" finished-at="2021-02-16T18:37:38 EST">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at com.qa.util.GenericFunction.doClick(GenericFunction.java:95)
+at com.qa.ecomm.pages.AccountPage.doSearch(AccountPage.java:101)
+at com.qa.ecomm.tests.ProductInfoTest.verifyProductInfoMacBookTest(ProductInfoTest.java:40)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(ArrayList.java:1259)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:425)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:66)
+at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+at java.lang.Thread.run(Thread.java:748)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyProductInfoMacBookTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.ecomm.tests.ProductInfoTest@5e77f0f4]" name="tearDown" is-config="true" duration-ms="2588" started-at="2021-02-16T18:37:38 EST" finished-at="2021-02-16T18:37:40 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.ecomm.tests.ProductInfoTest@5e77f0f4]" name="setUp" is-config="true" duration-ms="6112" started-at="2021-02-16T18:37:40 EST" finished-at="2021-02-16T18:37:47 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyImacInfoTest()[pri:2, instance:com.qa.ecomm.tests.ProductInfoTest@5e77f0f4]" name="verifyImacInfoTest" duration-ms="18642" started-at="2021-02-16T18:37:47 EST" finished-at="2021-02-16T18:38:05 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyImacInfoTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.ecomm.tests.ProductInfoTest@5e77f0f4]" name="tearDown" is-config="true" duration-ms="1165" started-at="2021-02-16T18:38:05 EST" finished-at="2021-02-16T18:38:06 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.ecomm.tests.ProductInfoTest -->
+    </test> <!-- Product Info Test -->
+    <test name="Account Test" duration-ms="68860" started-at="2021-02-16T18:37:19 EST" finished-at="2021-02-16T18:38:28 EST">
+      <class name="com.qa.ecomm.tests.AccountPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.ecomm.tests.AccountPageTest@25f9407e]" name="setUp" is-config="true" duration-ms="14301" started-at="2021-02-16T18:37:19 EST" finished-at="2021-02-16T18:37:34 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyHomePageTest()[pri:1, instance:com.qa.ecomm.tests.AccountPageTest@25f9407e]" name="verifyHomePageTest" duration-ms="2753" started-at="2021-02-16T18:37:34 EST" finished-at="2021-02-16T18:37:37 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHomePageTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.ecomm.tests.AccountPageTest@25f9407e]" name="tearDown" is-config="true" duration-ms="1801" started-at="2021-02-16T18:37:37 EST" finished-at="2021-02-16T18:37:38 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.ecomm.tests.AccountPageTest@25f9407e]" name="setUp" is-config="true" duration-ms="6478" started-at="2021-02-16T18:37:38 EST" finished-at="2021-02-16T18:37:45 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyPageHeaderTest()[pri:2, instance:com.qa.ecomm.tests.AccountPageTest@25f9407e]" name="verifyPageHeaderTest" duration-ms="5348" started-at="2021-02-16T18:37:45 EST" finished-at="2021-02-16T18:37:50 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPageHeaderTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.ecomm.tests.AccountPageTest@25f9407e]" name="tearDown" is-config="true" duration-ms="7033" started-at="2021-02-16T18:37:50 EST" finished-at="2021-02-16T18:37:57 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.ecomm.tests.AccountPageTest@25f9407e]" name="setUp" is-config="true" duration-ms="4365" started-at="2021-02-16T18:37:57 EST" finished-at="2021-02-16T18:38:02 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyAccountSectionCountTest()[pri:3, instance:com.qa.ecomm.tests.AccountPageTest@25f9407e]" name="verifyAccountSectionCountTest" duration-ms="2236" started-at="2021-02-16T18:38:02 EST" finished-at="2021-02-16T18:38:04 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAccountSectionCountTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.ecomm.tests.AccountPageTest@25f9407e]" name="tearDown" is-config="true" duration-ms="1756" started-at="2021-02-16T18:38:04 EST" finished-at="2021-02-16T18:38:06 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.ecomm.tests.AccountPageTest@25f9407e]" name="setUp" is-config="true" duration-ms="5288" started-at="2021-02-16T18:38:06 EST" finished-at="2021-02-16T18:38:11 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyAccountSectionListTest()[pri:4, instance:com.qa.ecomm.tests.AccountPageTest@25f9407e]" name="verifyAccountSectionListTest" duration-ms="3197" started-at="2021-02-16T18:38:11 EST" finished-at="2021-02-16T18:38:14 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAccountSectionListTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.ecomm.tests.AccountPageTest@25f9407e]" name="tearDown" is-config="true" duration-ms="1953" started-at="2021-02-16T18:38:14 EST" finished-at="2021-02-16T18:38:16 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.ecomm.tests.AccountPageTest@25f9407e]" name="setUp" is-config="true" duration-ms="6256" started-at="2021-02-16T18:38:16 EST" finished-at="2021-02-16T18:38:22 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifySearchAccountTest()[pri:5, instance:com.qa.ecomm.tests.AccountPageTest@25f9407e]" name="verifySearchAccountTest" duration-ms="4628" started-at="2021-02-16T18:38:22 EST" finished-at="2021-02-16T18:38:27 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySearchAccountTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.ecomm.tests.AccountPageTest@25f9407e]" name="tearDown" is-config="true" duration-ms="1197" started-at="2021-02-16T18:38:27 EST" finished-at="2021-02-16T18:38:28 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.ecomm.tests.AccountPageTest -->
+    </test> <!-- Account Test -->
+    <test name="Regression Functional Regression Test" duration-ms="83475" started-at="2021-02-16T18:37:19 EST" finished-at="2021-02-16T18:38:43 EST">
+      <class name="com.qa.ecomm.tests.LoginPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.ecomm.tests.LoginPageTest@319dead1]" name="setUp" is-config="true" duration-ms="11533" started-at="2021-02-16T18:37:19 EST" finished-at="2021-02-16T18:37:31 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyLoginPageTitleTest()[pri:1, instance:com.qa.ecomm.tests.LoginPageTest@319dead1]" name="verifyLoginPageTitleTest" duration-ms="1444" started-at="2021-02-16T18:37:32 EST" finished-at="2021-02-16T18:37:33 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginPageTitleTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.ecomm.tests.LoginPageTest@319dead1]" name="tearDown" is-config="true" duration-ms="4832" started-at="2021-02-16T18:37:33 EST" finished-at="2021-02-16T18:37:38 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.ecomm.tests.LoginPageTest@319dead1]" name="setUp" is-config="true" duration-ms="6088" started-at="2021-02-16T18:37:38 EST" finished-at="2021-02-16T18:37:44 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyForgotPasswordLink()[pri:2, instance:com.qa.ecomm.tests.LoginPageTest@319dead1]" name="verifyForgotPasswordLink" duration-ms="880" started-at="2021-02-16T18:37:44 EST" finished-at="2021-02-16T18:37:45 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyForgotPasswordLink -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.ecomm.tests.LoginPageTest@319dead1]" name="tearDown" is-config="true" duration-ms="7734" started-at="2021-02-16T18:37:45 EST" finished-at="2021-02-16T18:37:53 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.ecomm.tests.LoginPageTest@319dead1]" name="setUp" is-config="true" duration-ms="4115" started-at="2021-02-16T18:37:53 EST" finished-at="2021-02-16T18:37:57 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="VerifyLoginWithValidCredentialsTest()[pri:3, instance:com.qa.ecomm.tests.LoginPageTest@319dead1]" name="VerifyLoginWithValidCredentialsTest" duration-ms="3168" started-at="2021-02-16T18:37:57 EST" finished-at="2021-02-16T18:38:00 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyLoginWithValidCredentialsTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.ecomm.tests.LoginPageTest@319dead1]" name="tearDown" is-config="true" duration-ms="5336" started-at="2021-02-16T18:38:00 EST" finished-at="2021-02-16T18:38:06 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.ecomm.tests.LoginPageTest@319dead1]" name="setUp" is-config="true" duration-ms="4930" started-at="2021-02-16T18:38:06 EST" finished-at="2021-02-16T18:38:10 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="invalidLogintest(java.lang.String, java.lang.String)[pri:4, instance:com.qa.ecomm.tests.LoginPageTest@319dead1]" name="invalidLogintest" duration-ms="2500" started-at="2021-02-16T18:38:10 EST" data-provider="getInvalidLoginData" finished-at="2021-02-16T18:38:13 EST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[pavel@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pavel@Test]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidLogintest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.ecomm.tests.LoginPageTest@319dead1]" name="tearDown" is-config="true" duration-ms="2973" started-at="2021-02-16T18:38:13 EST" finished-at="2021-02-16T18:38:16 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.ecomm.tests.LoginPageTest@319dead1]" name="setUp" is-config="true" duration-ms="6834" started-at="2021-02-16T18:38:16 EST" finished-at="2021-02-16T18:38:23 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="invalidLogintest(java.lang.String, java.lang.String)[pri:4, instance:com.qa.ecomm.tests.LoginPageTest@319dead1]" name="invalidLogintest" duration-ms="2243" started-at="2021-02-16T18:38:23 EST" data-provider="getInvalidLoginData" finished-at="2021-02-16T18:38:25 EST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pavel@Test]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidLogintest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.ecomm.tests.LoginPageTest@319dead1]" name="tearDown" is-config="true" duration-ms="2791" started-at="2021-02-16T18:38:25 EST" finished-at="2021-02-16T18:38:28 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.ecomm.tests.LoginPageTest@319dead1]" name="setUp" is-config="true" duration-ms="5605" started-at="2021-02-16T18:38:28 EST" finished-at="2021-02-16T18:38:33 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="invalidLogintest(java.lang.String, java.lang.String)[pri:4, instance:com.qa.ecomm.tests.LoginPageTest@319dead1]" name="invalidLogintest" duration-ms="1868" started-at="2021-02-16T18:38:33 EST" data-provider="getInvalidLoginData" finished-at="2021-02-16T18:38:35 EST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[pavel@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidLogintest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.ecomm.tests.LoginPageTest@319dead1]" name="tearDown" is-config="true" duration-ms="1151" started-at="2021-02-16T18:38:35 EST" finished-at="2021-02-16T18:38:36 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.ecomm.tests.LoginPageTest@319dead1]" name="setUp" is-config="true" duration-ms="3795" started-at="2021-02-16T18:38:36 EST" finished-at="2021-02-16T18:38:40 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="invalidLogintest(java.lang.String, java.lang.String)[pri:4, instance:com.qa.ecomm.tests.LoginPageTest@319dead1]" name="invalidLogintest" duration-ms="1589" started-at="2021-02-16T18:38:40 EST" data-provider="getInvalidLoginData" finished-at="2021-02-16T18:38:42 EST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidLogintest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.ecomm.tests.LoginPageTest@319dead1]" name="tearDown" is-config="true" duration-ms="838" started-at="2021-02-16T18:38:42 EST" finished-at="2021-02-16T18:38:43 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.ecomm.tests.LoginPageTest -->
+    </test> <!-- Regression Functional Regression Test -->
+  </suite> <!-- Selenium framework Regression Test Suite -->
+</testng-results>

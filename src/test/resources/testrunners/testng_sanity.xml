@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="Selenium framework Regression Test Suite">
+	<listeners>
+		<listener class-name="com.qa.listeners.ExtentReportListener"></listener>
+		<listener class-name="com.qa.listeners.AllureListener"></listener>
+	</listeners>
+
+
+	<test name="Regression Functional Sanity Test">
+		<classes>
+			<class name="com.qa.ecomm.tests.LoginPageTest" />
+		</classes>
+	</test>
+
+	<!-- <test name="Regression Functional Sanity Test"> <parameter name="browser" 
+		value="chrome" /> <classes> <class name="com.qa.hubstpot.tests.LoginPageTest" 
+		/> </classes> </test> -->
+
+</suite>
